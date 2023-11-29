@@ -1,0 +1,40 @@
+/* Estilos personalizados para la barra de navegación */
+
+/* Fondo negro */
+.nav {
+    background-color: #000;
+  }
+  
+  /* Texto blanco para los enlaces y el logo */
+  .navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  /* Estilo para el botón de búsqueda */
+  .navbar-dark .form-control {
+    background-color: #001f3f; /* Azul oscuro */
+    color: #fff;
+  }
+  
+  /* Estilo para el botón de búsqueda al hacer hover */
+  .navbar-dark .form-control:hover {
+    background-color: #003366; /* Azul un poco más claro */
+  }
+  
+  /* Estilo para el botón de búsqueda al estar enfocado */
+  .navbar-dark .form-control:focus {
+    background-color: #004080; /* Azul más claro */
+  }
+  
+  /* Estilo para el botón de búsqueda al hacer click */
+  .navbar-dark .form-control:active {
+    background-color: #00509e; /* Azul aún más claro */
+    color: #fff;
+  }
+  
+  /* Estilo para el botón de búsqueda al estar deshabilitado */
+  .navbar-dark .form-control:disabled {
+    background-color: #555; /* Gris oscuro para indicar deshabilitado */
+    color: #fff;
+  }
+  
